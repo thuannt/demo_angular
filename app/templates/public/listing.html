@@ -1,0 +1,53 @@
+<div>
+    <div data-role="header" data-position="fixed" class="header">
+        <h1>
+            Listing		            		</h1>
+        <a href="http://m.homecaravan.com/public/listing" class="logo" rel="external"><img src="http://m.homecaravan.com/themes/mobile/images/logo.png"></a>
+        <a href="#bars" class="ui-menu">Menu</a>
+    </div><!-- /header -->
+
+    <div data-role="panel" id="bars" data-position="right" data-display="push" data-theme="b">
+        <ul data-role="listview" class="nav-header">
+            <li class="background-none">
+                <a class="ui-link" title="Home Caravan" href="http://m.homecaravan.com/">
+                    <span class="avatar"><img height="30" src="http://m.homecaravan.com/themes/mobile/images/logo.png"/></span>
+                    Home Caravan
+                </a>
+            </li>
+            <li data-icon="home"><a href="/">Home</a></li>
+            <li data-icon="lock"><a href="/users/login">Login</a></li>
+            <li data-icon="user"><a href="http://m.homecaravan.com/users/create_account">Create An Account</a></li>
+        </ul>
+    </div><!-- /panel -->
+
+    <div id="listing" data-role="content" role="main" class="ui-content wrapper mobile-listings-page">
+        <div class="container-fluid">
+            <div class="row">
+                <div id="search" class="col-xs-12 col-sm-5 col-md-5">
+                    <form id="form_search" action="http://m.homecaravan.com/public/listing/index" method="GET">
+                        <textarea rows="1" name="search-text" id="search-text" class="form-control"></textarea>
+                        <a id="btn_search" href="javascript:void(0);"><i class="fa fa-search"></i></a>
+                    </form>
+
+                    <div id="search-suggestion"></div>
+                </div>
+            </div>
+        </div>
+        <article>
+            <ul data-role="listview" data-filter="false" class="my-listing-item">
+                <li ng-repeat="listing in listings">
+                    <a href="http://m.homecaravan.com/public/listing/detail/{{listing.ID}}" target="_top">
+                        <img class="thum" title="" ng-src="{{listing.THUMB}}" width="93" height="70"/>
+                        <h4>{{listing.ADDRESS_1}}  <span class="green">({{listing.ID}})</span></h4>
+                        <b class="color-green nofontweight fontsize18">${{listing.PRICE}}<span class="price_unit">/{{listing.PRICE_UNIT}}</span>                    </b>
+                    </a>
+                </li>
+            </ul>
+
+            <div class="clear">
+                <ul class='pagination'><li class='disabled'><li class='active'><a href='#'>1<span class='sr-only'></span></a></li><li><a href="http://m.homecaravan.com/public/listing/index/2" data-ci-pagination-page="2">2</a></li><li><a href="http://m.homecaravan.com/public/listing/index/3" data-ci-pagination-page="3">3</a></li><li><a href="http://m.homecaravan.com/public/listing/index/2" data-ci-pagination-page="2">&gt;</a></ul>        </div>
+
+        </article>
+    </div><!-- /content -->
+
+</div><!-- /page -->

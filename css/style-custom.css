@@ -1,0 +1,799 @@
+a, a:link{
+  text-decoration: none;
+}
+.hidden {
+  display: none;
+}
+.messi {
+  width: 90% !important;
+  left: 5% !important;
+}
+.messi .messi-box {
+  width: 100% !important;
+}
+.text-center {
+  text-align: center;
+}
+#bars {
+  height: 0;
+  overflow-y: scroll;
+}
+.form-group {
+  clear: both;
+}
+.ui-input-text .error {
+  float: left;
+}
+.ui-menu.ui-link {
+  padding: 1em 1em;
+}
+.bg-green {
+	background-color: #429400 !important;
+	color: #fff !important;
+    font-weight: normal;
+}
+
+/*=======NAVIGATION HEADER=========*/
+.nav-header .avatar img {
+  width: auto;
+}
+/*=======//NAVIGATION HEADER=========*/
+
+/*=======SEARCH FORM=========*/
+#search {
+    color: #ffffff;
+    line-height: 40px;
+    display: block;
+    margin-top: 11px;
+    margin-bottom: 15px;
+    float: left;
+  	width: 100%;
+}
+#search .text-core {
+	width: 100%;
+}
+#search .fa-search {
+	color: #fff;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	z-index: 10;
+	background-color: 18a6ee;
+	padding: 10px 15px;
+	border-radius: 0 20px 20px 0;
+}
+.fa-search:before {
+  font-size: 18px;
+}
+#search form {
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+}
+#search #form_search .text-core, #search #form_search .text-wrap, #search #form_search input, #search #form_search textarea {
+	height: 38px !important;
+	width: 100%;
+}
+#search .form-control {
+    background: none repeat scroll 0 0 #fff;
+    border: 1px solid #009cd3;
+    border-radius: 20px;
+    color: #000;
+    font-size: 14px;
+    height: 38px;
+    margin: 0 auto;
+    padding: 9px;
+    position: relative;
+    float: left;
+    font-family: 'Lato', sans-serif;
+    opacity: 0.7;
+    line-height: 15px;
+}
+#search-text{
+    width: 55%;
+    float: right !important;
+}
+/*=======//SEARCH FORM=========*/
+
+/*=======PAGINATION=======*/
+ul.pagination {
+	list-style: none;
+	padding-left: 0;
+	float: left;
+  	margin: 0;
+}
+ul.pagination li {
+	display: inline;
+	margin-right: 2px;
+	float: left;
+  	height: 55px;
+}
+ul.pagination li a, ul.pagination li a:visited {
+	background-color: #ececec;
+  color: #363636;
+  cursor: default;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 12px 18px;
+  text-decoration: none;
+  z-index: 2;
+}
+ul.pagination li.active a {
+	background-color: #428bca;
+	color: #fff;
+}
+ul.pagination li.disabled {
+  	margin-right: 0px;
+}
+/*=======//PAGINATION=======*/
+
+/*=======LISTINGS-PAGE=======*/
+.mobile-listings-page .my-listing-item {
+	clear: both;
+	margin-bottom: 25px;
+}
+/*=======//LISTINGS-PAGE=======*/
+
+/*=======LISTING-DETAIL-PAGE=======*/
+.page-listing-detail .contact-agent-button {
+	margin-bottom: 20px;
+}
+.page-listing-detail ul.address {
+	list-style: none;
+  	padding-left: 0;
+}
+#map-canvas {
+	width: 100%;
+	height: 200px;
+}
+.fav_icon.active:after {
+	background-color: #429400 !important
+}
+/*=======//LISTING-DETAIL-PAGE=======*/
+
+/*=======CREATE-ACCOUNT-PAGE=======*/
+#sched_form_create_user #preview {
+	text-align: center;
+}
+#sched_form_create_user #preview.uploaded {
+  padding: 0;
+  height: auto;
+}
+#sched_form_create_user .captcha {
+  width: 100%; 
+}
+#sched_form_create_user #img_refresh_captcha {
+  float: left;
+  width: 75%;
+}
+#sched_form_create_user #img_refresh_captcha img {
+  max-width: 100%;
+}
+#sched_form_create_user .captcha .ui-input-text {
+  float: left;
+  width: 100%;
+}
+#sched_form_create_user .captcha .ui-input-text input.form-control {
+  margin-top: 0 !important;
+}
+.terms-checkbox{
+  position: static !important;
+  margin: -1px !important;
+  float: left;
+}
+.terms{
+  text-align: left;
+  margin-left: 5px;
+}
+/*=======//CREATE-ACCOUNT-PAGE=======*/
+
+/*=======APPOINTEMENT BOOKING - DATE=======*/
+#calendar-date thead { 
+  background-color: transparent;
+}
+#calendar-date #booking-date-form .fc-body {
+	background-color: #fafcfb;
+}
+#calendar-date .fc-head thead { 
+  background-color: #e8e8e8;
+}
+#calendar-date .fc-widget-content .fc-day-number {
+  text-align: center;
+  /*background: url(../images/ui_bg_diagonals.png);*/
+}
+#calendar-date .fc-widget-content .fc-day-number.fc-past {
+  cursor: default;
+}
+#calendar-date .fc-bgevent {
+  border-radius: 50% !important;
+}
+#calendar-date .fc-nonbusiness.fc-bgevent {
+  background-color: transparent;
+}
+#calendar-date .fc-day-grid-container {
+  height: auto !important;
+}
+/*#calendar-date .fc-bgevent-skeleton td {
+  border-width: 0px !important;
+}*/
+#calendar-date .fc-past, #calendar-date .fc-future {
+  background: url(../images/ui_bg_diagonals.png);
+  border-radius: 50%;
+  /*border: medium none !important;*/
+}
+#calendar-date .fc-future.remove-bg-diagonals {
+  background: none !important;
+   
+}
+#calendar-date .active-availability {
+  background: url("../images/available_big.png") no-repeat center;
+}
+#calendar-date td.fc-bgevent { 
+  opacity: 1 !important; 
+}
+#calendar-date .btn-groups {
+	margin-top: 15px;
+}
+.fc-bg .fc-day.fc-widget-content.fc-past{
+  background: #FFF !important;
+}
+
+.back-past {
+    background: rgba(0, 0, 0, 0) url("../images/ui_bg_diagonals.png") repeat scroll 0 0;
+}
+.note-list2 {
+	list-style: none;
+	margin: 0;
+    padding: 0 15px;
+}
+.note-list2 span {
+    border: 1px solid #ddd;
+    display: block;
+    float: left;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: 0;
+    width: 30px;
+}
+.note-list2 li {
+	clear: both;
+}
+.note-list2 li label {
+	line-height: 32px
+}
+/*=======//APPOINTEMENT BOOKING - DATE=======*/
+
+/*=======APPOINTEMENT BOOKING - TIME=======*/
+
+#calendar-time .fc-widget-content {
+  background: url(../images/ui_bg_diagonals.png);
+}
+#calendar-time .fc-axis.fc-time {
+  background: #f7f7f7;
+}
+#calendar-time .fc-day-grid, #calendar-time hr.fc-divider {
+  display: none;
+}
+#calendar-time .fc-bgevent {
+  opacity: 1;
+  border-bottom: 1px solid #ddd;
+}
+#calendar-time .fc-time-grid-container {
+  height: auto !important;
+}
+#calendar-time .fc-time-grid-event.fc-short .fc-time:before {
+  display: none;
+}
+#calendar-time .fc-time-grid-event.fc-short .fc-time span {
+  display: block;
+  margin-right: 10px;
+}
+#calendar-time .fc-time-grid-event {
+  background: #4db1ea;
+  border: none;
+  border-radius: 0;
+  line-height: 25px;
+  color: #fff;
+  text-align: center;
+  height: 26px;
+}
+.fc-button-div {
+  border-left: 3px solid #FFF;
+  float: right;
+}
+#calendar-time .fc-button-gr {
+  height: 26px;
+  color: #fff;
+  border: 1px solid #4c9010;
+  text-align: center;
+  background: #97d95e;
+  background-image: -webkit-linear-gradient(top, #97d95e, #487a1a);
+  background-image: -moz-linear-gradient(top, #97d95e, #487a1a);
+  background-image: -ms-linear-gradient(top, #97d95e, #487a1a);
+  background-image: -o-linear-gradient(top, #97d95e, #487a1a);
+  background-image: linear-gradient(to bottom, #97d95e, #487a1a);
+  /*-webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  background: #84C649;
+  background: -webkit-gradient(linear, 0 0, 0 bottom, from(#84C649), to(#75B041));
+  background: -webkit-linear-gradient(#84C649, #75B041);
+  background: -moz-linear-gradient(#84C649, #75B041);
+  background: -ms-linear-gradient(#84C649, #75B041);
+  background: -o-linear-gradient(#84C649, #75B041);
+  background: linear-gradient(#84C649, #75B041);*/
+}
+#calendar-time .fc-ltr .fc-time-grid .fc-event-container {
+  margin: 0;
+}
+/*=======//APPOINTEMENT BOOKING - TIME=======*/
+
+/*=======EDIT ACCOUNT=======*/
+#sched_form_edit_user .ui-bar h4 {
+  width: 40%;
+  float: left;
+}
+#sched_form_edit_user .ui-bar .link-change-pass {
+  width: 60%;
+  float: right;
+  text-align: right;
+}
+#sched_form_edit_user .ui-bar .link-change-pass a {
+  text-decoration: none;
+  font-weight: normal;
+}
+/*=======//EDIT ACCOUNT=======*/
+
+/*=======LOGIN PAGE=======*/
+#users-login .ui-page {
+  background-color: #1bb4f1 !important;
+}
+#users-login .header {
+  display: none;
+}
+#users-login #login {
+  display: block;
+}
+#login .ui-checkbox {
+  margin: 0;
+}
+#login .remember-me {
+  background-color: #1bb4f1;
+  border: #1bb4f1;
+  color: #fff;
+  font-weight: normal;
+}
+#login .remember-block .ui-block-b {
+  line-height: 25px;
+}
+#login .remember-block .remember-me {
+  margin-left: -10px;
+  line-height: 25px;
+}
+#login .link-user-block {
+  text-align: right;
+}
+#login .link-box {
+  line-height: 25px;
+}
+#login .menu-bottom {
+  text-align: center;
+}
+#login .forgot-active-block {
+	margin-top: 15px;
+}
+/*=======//LOGIN PAGE=======*/
+
+/*=======IDENTIFY PAGE=======*/
+#identify .captcha {
+  width: 100%;
+}
+#identify .captcha #img_refresh_captcha {
+  float: left;
+  width: 75%;
+}
+#identify .captcha #img_refresh_captcha img {
+  max-width: 100%;
+}
+#identify .captcha .ui-input-text {
+  float: left;
+  width: 100%;
+}
+#identify .captcha .ui-input-text .form-control {
+  margin-top: 0 !important;
+}
+#identify .time-appointment {
+	padding: 10px;
+}
+#identify .ui-grid-solo {
+	overflow: visible;
+}
+/*=======//IDENTIFY PAGE=======*/
+
+/*=======CONFIMATION PAGE=======*/
+#popupUpdateEmailPhone .popup-content h4 {
+  margin: 0;
+}
+#confirmation .waiting-code {
+  margin-bottom: 20px;
+}
+#confirmation .waiting-code h4 {
+  font-size: 16px;
+}
+/*=======//CONFIMATION PAGE=======*/
+
+/*=======MY APPOINTMENT PAGE=======*/
+#my-appointment-page article {
+  float: left;
+  margin-bottom: 20px;
+  width: 100%;
+}
+#my-appointment-page #collapsiblesetForFilterChildren {
+  float: left;
+  width: 100%;
+  border-bottom: 1px solid #bbbbbb;
+}
+#my-appointment-page .app-header {
+  width: 100%;
+  background-color: #f9f9f9;
+  border: 1px solid #cccccc;
+  border-bottom: 0;
+  color: #333333;
+  text-shadow: 0 1px 0 #f3f3f3; 
+  clear: both;
+}
+#my-appointment-page .app-header .app-content{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+#my-appointment-page .app-header .address {
+  float: left;
+  width: 100%;
+  padding: 5px 0;
+}
+#appointment-upcoming .applist .address a {
+	clear: both;
+}
+#my-appointment-page .app-header .address .listing-link {
+  color: #333333;
+  text-decoration: none;
+  font-size: 0.8em;
+  line-height: 18px;
+}
+#my-appointment-page .app-header .address .listing-thumb, #my-appointment-page .app-header .address .listing-address {
+  float: left;
+}
+#appointment-upcoming .applist .photo {
+	padding: 0 !important;
+	max-width: 100%;
+}
+#my-appointment-page .app-header .address .listing-thumb {
+	/*width: 22%;*/
+	/*margin-bottom: 33px;*/
+  max-width:5em;
+}
+#my-appointment-page .app-header .address .listing-address {
+	/*max-width: 65%;
+	margin: 5px 2% ;*/
+
+  width: 50%;
+ 	padding: 0 2%;
+ 	font-weight: bold !important;
+}
+#my-appointment-page .app-header .address .listing-address .text-address {
+	color: #000 !important;
+	font-weight: bold !important;
+  display: block;
+}
+#my-appointment-page .app-header .address .listing-address .text-zip {
+	color: #a1a1a1 !important;
+	font-weight: bold !important;
+}
+#my-appointment-page .app-header .dropdown-icon {
+  float: right !important;
+  position: absolute;
+  right: 0;
+  text-align: right;
+}
+#my-appointment-page .app-description {
+  clear: both;
+  border-top: 1px solid #bbbbbb;
+  padding: 1% 3%;
+  width: 94%;
+  background-color: #e3e3e3;
+}
+#my-appointment-page .app-description li {
+	background-color: #e3e3e3;
+	border: 0;
+}
+#my-appointment-page .app-description li.list-icons {
+	text-align: center;
+}
+#my-appointment-page .app-description li.list-icons .ui-nodisc-icon {
+	float: inherit;
+}
+#my-appointment-page .cancel-appointment {
+	color: red !important;
+}
+.cancel-appt-buttons input.btn {
+	min-width: 0 !important;
+	padding: 5px 10px !important;
+}
+
+#appointment-upcoming .applist .dropdown-icon .status {
+  	float: right;
+    margin-top: 0;
+    margin-bottom: 10px;
+    right: 8px;
+    padding: 3px 8px 5px;
+}
+#appointment-upcoming .applist .ui-nodisc-icon {
+	/*margin-top: 25px;*/
+    float: right;
+}
+#appointment-upcoming .applist .details {
+  padding-right: 35px !important;
+  line-height: 20px;
+}
+#appointment-upcoming .take-action-button {
+	float: left;
+  margin-top: 0 !important;
+  padding: 3px 5% !important;
+  right: inherit !important;
+  text-align: center;
+  text-decoration: none;
+  width: 90%;
+}
+#appointment-upcoming .take-action {
+	width: 100%;
+    position: relative;
+	margin-top: 4px;
+    float: left;
+}
+#appointment-upcoming #footer .active, #appointment-upcoming #footer .active {
+	background-color: #428bca !important;
+}
+/*=======//MY APPOINTMENT PAGE=======*/
+
+/*=======MESSENGER WIDGET=======*/
+#messenger_widget .container-fluid {
+	text-align: center;
+}
+#messenger_widget .contact-listing {
+	border: 0;
+}
+#messenger_widget .listing-ms {
+	margin-top: 15px;
+}
+#messenger_widget .listing-ms p {
+	font-size: 14px; margin-top: 0px
+}
+#messenger_widget #messenger_ta {
+	text-align: left;
+}
+#messenger_widget textarea.sub-message {
+	height: 140px !important;
+	min-width: 100%; 
+	width: 100%;
+}
+#messages .wrapper .photo {
+	left: 15px !important;
+}
+#messages .wrapper p.text-title, #messages .wrapper h4 {
+	margin-left: 60px !important;
+}
+#messages-details .wrapper .item-text {
+	padding-top: 0;
+}
+/*=======//MESSENGER WIDGET=======*/
+
+
+@media screen and (max-width: 420px) {
+ /* #calendar-date .fc-row .fc-bgevent-skeleton {
+    height: 50px;
+  }
+  #calendar-date .fc-bg {
+    height: 50px;
+  }*/
+  /*#calendar-date .fc-widget-content .fc-day-number {
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }*/
+}
+#sched_form_edit_user .ui-input-text .error, 
+#sched_form_change_password .ui-input-text .error,
+#sched_form_edit_setting .ui-input-text .error,
+#sched_form_edit_company .ui-input-text .error {
+  float: left;
+}
+#sched_form_edit_user .form-group,
+#sched_form_change_password .form-group,
+#sched_form_edit_company .form-group,
+#sched_form_edit_setting .form-group {
+  clear: both;
+}
+.contact-listing {
+	text-align: center;
+}
+
+
+/* Company Suggestion */
+#company-suggestion ul.ui-autocomplete li {
+	padding: 7px 0 !important;
+}
+#company-suggestion ul.ui-autocomplete li a strong {
+	margin-left: 7px;
+	color: #fff;
+}
+#company-suggestion .ui-autocomplete.ui-widget-content {
+  width: 99% !important;
+  height: auto;
+  max-height: 200px;
+  overflow-x: hidden;
+}
+#company-suggestion .ui-selectmenu-text, .ui-menu-item {
+    font-size: 14px !important;
+    cursor: pointer;
+    border-bottom: 1px solid #509ecb;
+    font-family: Tahoma;
+    width: 100%;
+}
+.ui-selectmenu-text, .ui-menu-item:hover {
+    color: #000;
+}
+
+.text-core .text-wrap .text-tags .text-tag .text-button {
+  	padding-right: 22px !important;
+}
+.text-core .text-wrap .text-tags .text-tag .text-button a.text-remove {
+    top: 4px !important;
+    width: 18px !important;
+    height: 13px !important;
+    right: 0 !important;
+}
+.text-core .text-wrap .text-tags .text-tag .text-button a.text-remove:hover {
+    background-position: 0 -16px !important;
+}
+.detail-listing-block {
+	float: left;
+	width: 100%;
+	margin: 20px 0;
+}
+.detail-listing-block .thumb-listing {
+	float: left;
+	margin-right: 2%;
+	width: 33%;
+}
+.detail-listing-block .thumb-listing img {
+	max-width: 100%;
+}
+.detail-listing-block .address-listing {
+	float: left;
+	width: 65%;
+}
+.detail-listing-block .address-listing a {
+	color: #333333;
+    text-decoration: none;
+}
+.import-calendar-block {
+	text-align: center;
+}
+.import-calendar {
+  position: relative;
+  padding: 0;
+  display: inline-block;
+}
+.import-calendar li {
+  float: left;
+  margin: 0 15px;
+}
+.ui-popup {
+	background-color: #fff;
+}
+.ui-popup-container {
+	width: 90% !important;
+}
+.popup-header {
+  background: #3c8dbc !important;
+  padding: 15px;
+  color: #fff !important;
+}
+.popup-content, .popup-footer {
+  padding: 20px !important;
+}
+.popup-footer {
+	margin-top: -20px;
+}
+#tbl_listing .alert {
+	text-align: center;
+}
+.form-group input.error, .form-group textarea.error {
+  	border: 1px dotted red;
+}
+.form-group label.error {
+	color: red;
+  	font-style: italic;
+  	font-weight: normal;
+}
+textarea {
+  	font-size: 18px !important;
+}
+#sched_form_login_user h1 {
+	margin-top: 0;
+}
+#sched_form_login_user .remember-me {
+	padding-top: 0;
+  	padding-bottom: 0;
+}
+#cancel_message {
+	width: 100%;
+    margin-bottom: 15px;
+}
+#btn_yes_cancel_appt {
+	float: right;
+}
+.bg-blue-bold {
+  background: #23A2E9 !important;
+  background: -webkit-gradient(linear,0 0,0 bottom,from(#23A2E9),to(#1772A5)) !important;
+  background: -webkit-linear-gradient(#23A2E9,#1772A5) !important;
+  background: -moz-linear-gradient(#23A2E9,#1772A5) !important;
+  background: -ms-linear-gradient(#23A2E9,#1772A5) !important;
+  background: -o-linear-gradient(#23A2E9,#1772A5) !important;
+  background: linear-gradient(#23A2E9,#1772A5) !important;
+  color: #fff !important;
+  text-shadow: none !important;
+  box-shadow: none !important;
+  font-weight: normal !important;
+}
+
+.custom-btn{
+    font-weight: bold;
+    font-size: 14px;
+    display: block;
+    color: #ffffff !important;
+    padding: 15px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    border-radius: 2px !important;
+    text-align: center !important; 
+}
+
+.fa-hc{
+  line-height: 51px !important;
+}
+.line-social{
+    width: 100%;
+    border: 6px solid #f4f4f4;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+.other-login{
+    /*width: 472px;*/
+    display: block;
+    margin: 0px auto;
+    text-align: center;
+}
+
+.other-login h4{
+    padding: 10px;
+    margin: 0px auto !important;
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.color-black{
+  color: #000000 !important;
+}
+.color-gray{
+  color: #a1a1a1;
+}
+
+.title-navigation{
+  font-size: 12px !important;
+  font-weight:normal;
+}
+
+.item-navigation{
+  font-size: 12px !important;
+  padding-bottom:2px;
+}
