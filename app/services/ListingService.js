@@ -1,7 +1,8 @@
 options = {};
+// fill apikey and token
 PARAMS = {
-    API_KEY :   "wV70mg5h5DLiDMUGQ4OUdOtadjAMqnWT9WDxD/XiI/E=",
-    TOKEN   :   "hLULeJ\\/Xd2BtupPXC537rRj8nGGx\\/5Q4v+tqYJ3Wesk="
+    API_KEY :   "",
+    TOKEN   :   ""
 };
 hcApp.service('ListingService', ["$rootScope","$http","$q",function ($rootScope,$http,$q) {
     function prepareParam(params){
